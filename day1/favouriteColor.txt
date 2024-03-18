@@ -1,0 +1,28 @@
+PROJECT 1 : Favourite Color Picking 
+
+In this We used a few concepts of JavaScript.
+The Concepts are Variable, DOM Tree, getElementById() Method, textContent and Style properties, and onclick Event.
+
+Variable : Containers for storing values. 
+           - using keyword like "let".
+
+Document Object Model (DOM): Structure reprasentation of HTML documnet created by the browser. It allows JavaScript to manupulate, Structure and style.
+
+getElementById() : It helps to select html element with a specific Id.
+                 - let heading = documnet.getElementById("headingElement");
+
+textContent : To manipulate the text with in the html element.
+                - heading.textContent = "yourText";
+
+style : To set or get specific style of an html element using different CSS properties.
+         - heading.style.color = "blue";
+         - heading.style.fontFamily = "Roboto";
+    -Use camelCase Notations for CSS properties.
+
+Events : Events are the actions by which the user or browser interacts with the html elements.
+
+onclick : Onclick Event occurs when the user clicks on html element. WE will give the name of the function as a value to the html onclick attribute.
+      HTML   :  <button onclick="stles()">Styles</button>
+   JavaScript:  function styles(){
+            // code 
+        }
